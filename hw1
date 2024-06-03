@@ -1,0 +1,18 @@
+create table shops(
+	id int primary key,
+	name varchar(150),
+	no_of_items int,
+	category varchar(15),
+	no_of_emp int,
+	owner_name varchar(150),
+	address varchar(150),
+	mobile_no int,
+	sales int,
+	revenue int,
+	is_active boolean
+)
+	select * from shops
+	insert into shops values(18,'saurabh',750,'online',70,
+	' saurabh is great','saurabh square',9020,400000,30000,true)
+	-- category:1) retails 2)wholesale 3) online
+)
